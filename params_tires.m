@@ -9,4 +9,4 @@ vehicle.tire_lr_mismatch = 0.0; % ratio, mismatch in grip between left/right tir
 
 % fit to LC0 18x6 TTC drive/brake data at ~12psi by Magic Formula Tyre Tool
 vehicle.pacejka_E = 0; % unitless, curvature coefficient
-vehicle.tire_nominal_Fz=1500; % N, nominal normal force on tire
+vehicle.tire_nominal_Fz=1050; % N, nominal normal force on tire

@@ -16,3 +16,4 @@ vehicle.power_limit = 80000; % Watts, 80kW rules-mandated limit
 vehicle.inverter_receive_period = 0.003; % s, Inverter CAN receive period, 3ms for Cascadia CM200
 vehicle.inverter_transmit_period = 0.003; % s, Inverter CAN transmit period, 3ms for 0x0B0 high-rate frame
 vehicle.inverter_torque_tau = 0.002; % s, First order lag on torque command [uncertain]
+vehicle.inverter_request_deadtime = 0.001; % s, The pure deadtime between torque request and actuation

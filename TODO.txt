@@ -1,14 +1,19 @@
 High priority
 
 - Add sensor imperfections (encoder quantization, resolver filtering, accelerometer bias + noise)
+- Repair speed-limited torque cap
 - Run joint Monte Carlo to test mean performance of controller vs. driver
 
 Medium priority
 
 - Add low-speed damping to tire model
 - Separate elastic and inelastic weight transfer
+- Aero drag and downforce
 
 Low priority
 
 - Test motor acceleration based torque-cut to catch early slip
 - SIL testing with LVCU code
+- Make sure gearbox efficiency is handled correctly both forward and backward
+- Modify model to work under braking
+- Extend to cornering for general TC

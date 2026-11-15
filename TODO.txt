@@ -1,7 +1,6 @@
 High priority
 
 - Add accelerometer measurement + proper observer
-- Repair speed-limited torque cap
 - Run joint Monte Carlo to test mean performance of controller vs. driver
 
 Medium priority

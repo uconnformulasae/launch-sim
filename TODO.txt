@@ -1,5 +1,6 @@
 High priority
 
+- Adjust parameters to match measured accel times
 - Add accelerometer measurement + proper observer
 - Run joint Monte Carlo to test mean performance of controller vs. driver
 

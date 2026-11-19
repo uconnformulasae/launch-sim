@@ -3,6 +3,7 @@ clear;
 params_suspension;
 params_powertrain;
 params_tires;
+params_aero;
 params_sensors;
 
 vehicle = Simulink.Parameter(vehicle);

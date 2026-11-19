@@ -1,6 +1,6 @@
 High priority
 
-- Adjust parameters to match measured accel times
+- Adjust parameters to match measured accel logs: clock+startline, driveline efficiency, drag, tires maybe (weakly identified)
 - Add accelerometer measurement + proper observer
 - Run joint Monte Carlo to test mean performance of controller vs. driver
 

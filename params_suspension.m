@@ -4,8 +4,8 @@ vehicle.rolling_resistance = 0.015; % unitless, rolling resistance coefficient
 vehicle.frame_wheelbase = 1.549; % m, distance from front to rear wheels
 vehicle.weight_distribution_front = 0.535; % ratio, front weight percentage [minor uncertainty]
 vehicle.weight_distribution_rear = 1 - vehicle.weight_distribution_front; % ratio, rear weight percentage
-vehicle.gravity_acceleration = 9.81; %m/s^2, gravity on a flat surface
-vehicle.weight_transfer_tau = 0.2; % s, the time it takes for longitudinal weight transfer to settle [high uncertainty]
+vehicle.gravity_acceleration = 9.81; %m/s^2, proper acceleration stationary on a flat surface
+vehicle.weight_transfer_tau = 0.2; % s, first order lag on elastic weight transfer [high uncertainty]
 vehicle.weight_transfer_instant_fraction = 0.2; % ratio, proportion of geometric (instantaneous) weight transfer. scales with anti-squat [high uncertainty]
 vehicle.kappa_max=15; % ratio, max slip ratio we expect to see in heavy wheel spin
 

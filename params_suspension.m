@@ -1,4 +1,4 @@
-vehicle.total_mass = 278; % kg, car and driver [minor uncertainty]
+vehicle.total_mass = 305; % kg, car and driver [minor uncertainty] increased from 278kg endurance number (force balance didn't match late run...)
 vehicle.cg_height = 0.2794; % m, center of gravity height
 vehicle.rolling_resistance = 0.015; % unitless, rolling resistance coefficient
 vehicle.frame_wheelbase = 1.549; % m, distance from front to rear wheels
